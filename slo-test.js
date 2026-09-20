@@ -9,7 +9,6 @@ export const options = {
     checks: ["rate>0.90"], // Availability SLO
   },
 };
-
 export default function () {
   const base = "http://localhost:3000";
   const c = http.post(`${base}/cart/add`, null, { tags: { name: "cart" } });
