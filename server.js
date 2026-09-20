@@ -1,4 +1,4 @@
-const express = reqiure("express");
+const express = require("express");
 const app = express();
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 // 1. hurdan endpoint sagsand nemeh
